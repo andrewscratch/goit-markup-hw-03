@@ -53,6 +53,11 @@ body {
 .site-nav {
   margin-left: 93px;
 }
+
+.site-nav {
+  display: flex;
+}
+
 .otherpages-list {
   display: flex;
 }
@@ -139,6 +144,7 @@ body {
 }
 
 .hero-title {
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -146,7 +152,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--normal-color);
-  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 }
 
@@ -156,6 +163,9 @@ body {
   letter-spacing: 0.06em;
   color: var(--normal-color);
   background-color: var(--accent-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 32px;
 }
 .hero-button:hover,
