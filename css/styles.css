@@ -171,8 +171,7 @@ ul {
 /* -----------benefits-------------- */
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
-}
+  }
 
 .benefits-list {
   display: flex;
@@ -250,7 +249,7 @@ ul {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .our-team-names {
@@ -363,7 +362,7 @@ ul {
   color: var(--minor-color);
   }
 
-  .examples-box {
+  .examples-frame {
     padding: 20px 24px 20px 24px;
     border: 1px solid #eeeeee;
     border-top: none;
