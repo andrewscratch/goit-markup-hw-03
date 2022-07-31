@@ -171,6 +171,7 @@ ul {
 /* -----------benefits-------------- */
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
   }
 
 .benefits-list {
@@ -198,6 +199,9 @@ ul {
 }
 
 /*-----------------what-we-do--------*/
+.what-we-do-section {
+  padding-top: 0;
+}
 
 .what-we-do-title {
   font-size: 36px;
